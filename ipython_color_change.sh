@@ -1,0 +1,2 @@
+cd ~
+ipython profile create

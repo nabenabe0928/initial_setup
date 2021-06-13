@@ -1,5 +1,0 @@
-The update of bibtex
-pdflatex [filename].tex
-pbibtex [filename]
-pdflatex [filename].tex
-pdflatex [filename].tex
