@@ -17,6 +17,7 @@
             "\\usepackage{multirow}",
             "\\usepackage[caption=false]{subfig}",
             "\\usepackage{comment}",
+            "\\usepackage{listings}",
             "\\usetikzlibrary{chains}",
             "\\usetikzlibrary{calc}",
             "\\usepackage{amsmath,tikz}",
@@ -90,6 +91,7 @@
             "\\usepackage{lastpage}",
             "\\usepackage{amsmath,tikz}",
             "\\usepackage{tcolorbox}",
+            "\\usepackage{listings}",
             "\\tcbuselibrary{breakable, skins, theorems}",
             "\\newtheorem{theorem1}{定理}",
             "\\newtheorem{theorem2}{定義}",
@@ -319,6 +321,22 @@
             "",
             "\\end{lstlisting}",
             "\\end{minipage}"
+        ]
+    },
+    "Combination":{
+        "prefix": "combination",
+        "body": "\\newcommand{\\comb}[2]{{}_#1 \\mathrm{C} _#2}"
+    },
+    "Kahoot":{
+        "prefix": "kahoot",
+        "body": [
+            "{\\bf Question}",
+            "\\begin{enumerate}",
+            "\t\\item o",
+            "\t\\item x",
+            "\t\\item ",
+            "\t\\item ",
+            "\\end{enumerate}"
         ]
     }
 }
