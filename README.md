@@ -87,3 +87,17 @@ c.InteractiveShell.colors = 'Linux'
 1. Create a file `~/.github/.gitmessage`
 2. Copy `github_setup/.gitmessage` to `~/.github/.gitmessage`
 3. Run `./github_setup/initial_git.sh`
+
+## Setup CUDA driver
+To use CUDA driver in your computer, we need to setup NVIDIA driver
+and CUDA driver.
+CUDA driver installation often causes serious issues on your machine,
+so we use [Singularity](https://sylabs.io/) to avoid this issue.
+1. Check [Your GPU Compute Capability](https://developer.nvidia.com/cuda-gpus) and 
+[Table: Cuda Toolkit and Corresponding Driver versions](https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html#cuda-major-component-versions__table-cuda-toolkit-driver-versions)
+2. Go to `Software & Updates` and choose `Additional Drivers`
+3. Choose `Using NVIDIA driver metapackage from NVIDIA-driver-xxx` and click `Apply Changes`, then reboot
+4. Setup the Singularity environment based on the latest version
+5. Create an image file by `sudo singularity build <file name>.sif <file name>.conf`
+6. Make a shortcut link for the image file `ln -s <The path to sif file> <link name>`
+7. Test by `singularity exec --nv <link name> <command to run a script>`
