@@ -48,6 +48,8 @@ $ mount
 ## Setup language
 1. Choose Japanese to avoid complications in the first place
 2. Run `./change_language.sh`
+3. Change `Punctuation style` from the window (`Mozc Settings`) that opens by clicking `Tools > Properties` in `A` at the top-right corner of Desktop
+4. (Optional) Change keys for `... IME` into `Ctrl Space` in `Keymap style` in `Mozc Settings` 
 
 ## Setup VSCode
 1. Download the [setup file](https://code.visualstudio.com/)
