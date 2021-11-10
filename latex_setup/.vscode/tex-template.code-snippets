@@ -4,7 +4,7 @@
         "body": [
             "\\documentclass[dvipdfmx]{article}",
             "\\usepackage[utf8]{inputenc}",
-            "\\usepackage{amsmath,amssymb,bm,bbm}",
+            "\\usepackage{amsmath,amssymb,amsthm,bm,bbm}",
             "\\usepackage{graphicx}",
             "\\usepackage{ascmac}",
             "\\usepackage{fancyhdr}",
@@ -73,7 +73,7 @@
         "body":[
             "\\documentclass[11pt,dvipdfmx]{jsarticle}",
             "\\usepackage[utf8]{inputenc}",
-            "\\usepackage{amsmath,amssymb,bm}",
+            "\\usepackage{amsmath,amssymb,amsthm,bm}",
             "\\usepackage{graphicx}",
             "\\usepackage{ascmac}",
             "\\usepackage{fancyhdr}",
