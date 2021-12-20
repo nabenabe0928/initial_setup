@@ -109,7 +109,7 @@
         }
     ],
     "latex-workshop.view.pdf.viewer": "tab",
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 0,
     "terminal.integrated.inheritEnv": true,
     "python.languageServer": "Jedi",
     "terminal.integrated.shell.linux": "/bin/bash",
