@@ -1,0 +1,44 @@
+{
+    "description": "Use Cmd+Tab to switch tabs (Cmd+Opt+Arrows) instead of Apps",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "tab",
+                "modifiers": { "mandatory": ["left_command"] }
+            },
+            "to": [
+                {
+                    "key_code": "right_arrow",
+                    "modifiers": ["left_command", "left_option"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "tab",
+                "modifiers": { "mandatory": ["left_command", "left_shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "left_arrow",
+                    "modifiers": ["left_command", "left_option"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "tab",
+                "modifiers": { "mandatory": ["left_command", "right_shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "left_arrow",
+                    "modifiers": ["left_command", "left_option"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "description": "Cmd + Ctrl + Foo to Open Apps",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "t",
+                "modifiers": { "mandatory": ["left_command", "left_control"] }
+            },
+            "to": [{ "shell_command": "open -a Terminal" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "c",
+                "modifiers": { "mandatory": ["left_command", "left_control"] }
+            },
+            "to": [{ "shell_command": "open -a 'Google Chrome'" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "o",
+                "modifiers": { "mandatory": ["left_command", "left_control"] }
+            },
+            "to": [{ "shell_command": "open -a obsidian" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "s",
+                "modifiers": { "mandatory": ["left_command", "left_control"] }
+            },
+            "to": [{ "shell_command": "open -a slack" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "a",
+                "modifiers": { "mandatory": ["left_command", "left_control"] }
+            },
+            "to": [{ "shell_command": "open -a Settings" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "v",
+                "modifiers": { "mandatory": ["left_command", "left_control"] }
+            },
+            "to": [{ "shell_command": "open -a 'Visual Studio Code'" }],
+            "type": "basic"
+        }
+    ]
+}

@@ -1,0 +1,117 @@
+{
+    "description": "Swap Command+Arrows with Option+Arrows",
+    "manipulators": [
+        {
+            "description": "Cmd+Left -> Opt+Left",
+            "from": {
+                "key_code": "left_arrow",
+                "modifiers": { "mandatory": ["left_command"] }
+            },
+            "to": [
+                {
+                    "key_code": "left_arrow",
+                    "modifiers": ["left_option"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "description": "Opt+Left -> Cmd+Left",
+            "from": {
+                "key_code": "left_arrow",
+                "modifiers": { "mandatory": ["left_option"] }
+            },
+            "to": [
+                {
+                    "key_code": "left_arrow",
+                    "modifiers": ["left_command"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "description": "Cmd+Right -> Opt+Right",
+            "from": {
+                "key_code": "right_arrow",
+                "modifiers": { "mandatory": ["left_command"] }
+            },
+            "to": [
+                {
+                    "key_code": "right_arrow",
+                    "modifiers": ["left_option"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "description": "Opt+Right -> Cmd+Right",
+            "from": {
+                "key_code": "right_arrow",
+                "modifiers": { "mandatory": ["left_option"] }
+            },
+            "to": [
+                {
+                    "key_code": "right_arrow",
+                    "modifiers": ["left_command"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "description": "Cmd+Shift+Left -> Opt+Shift+Left",
+            "from": {
+                "key_code": "left_arrow",
+                "modifiers": { "mandatory": ["left_command", "left_shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "left_arrow",
+                    "modifiers": ["left_option", "left_shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "description": "Opt+Shift+Left -> Cmd+Shift+Left",
+            "from": {
+                "key_code": "left_arrow",
+                "modifiers": { "mandatory": ["left_option", "left_shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "left_arrow",
+                    "modifiers": ["left_command", "left_shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "description": "Cmd+Shift+Right -> Opt+Shift+Right",
+            "from": {
+                "key_code": "right_arrow",
+                "modifiers": { "mandatory": ["left_command", "left_shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "right_arrow",
+                    "modifiers": ["left_option", "left_shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "description": "Opt+Shift+Right -> Cmd+Shift+Right",
+            "from": {
+                "key_code": "right_arrow",
+                "modifiers": { "mandatory": ["left_option", "left_shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "right_arrow",
+                    "modifiers": ["left_command", "left_shift"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}

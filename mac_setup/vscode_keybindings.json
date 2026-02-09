@@ -1,0 +1,101 @@
+[
+    {
+        "key": "cmd+y",
+        "command": "redo",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+shift+up",
+        "command": "editor.action.insertCursorAbove",
+        "when": "editorTextFocus || terminalFocus"
+    },
+    {
+        "key": "cmd+shift+down",
+        "command": "editor.action.insertCursorBelow",
+        "when": "editorTextFocus || terminalFocus"
+    },
+    {
+        "key": "cmd+w",
+        "command": "-workbench.action.closeActiveEditor",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+w",
+        "command": "workbench.action.terminal.sendSequence",
+        "when": "terminalFocus",
+        "args": {
+            "text": "\u0017" 
+        }
+    },
+    {
+        "key": "cmd+`",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "cmd+d",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": { "text": "\u0004" },
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+backspace",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": { "text": "\u0017" },
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+r",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": { "text": "\u0012" },
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+alt+left",
+        "command": "-cursorWordPartLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+alt+right",
+        "command": "-cursorWordPartRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+alt+left",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": { "text": "" },
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+alt+right",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": { "text": "" },
+        "when": "terminalFocus"
+    },
+        {
+        "key": "ctrl+alt+up",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": { "text": "" },
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+c",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": { "text": "\u0003" },
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+shift+c",
+        "command": "workbench.action.terminal.copySelection",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "backspace",
+        "command": "moveFileToTrash",
+        "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "f2",
+        "command": "renameFile",
+        "when": "filesExplorerFocus && !inputFocus"
+    }
+]
