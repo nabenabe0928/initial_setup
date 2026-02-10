@@ -97,5 +97,9 @@
         "key": "f2",
         "command": "renameFile",
         "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "shift+cmd+s",
+        "command": "opensshremotes.openEmptyWindow"
     }
 ]
