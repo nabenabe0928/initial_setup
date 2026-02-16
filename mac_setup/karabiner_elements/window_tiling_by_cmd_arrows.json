@@ -32,7 +32,12 @@
                 "key_code": "up_arrow",
                 "modifiers": { "mandatory": ["left_control"] }
             },
-            "to": [{ "key_code": "mission_control" }],
+            "to": [
+                {
+                    "key_code": "up_arrow",
+                    "modifiers": ["left_control", "left_option"]
+                }
+            ],
             "type": "basic"
         },
         {
