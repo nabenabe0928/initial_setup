@@ -9,7 +9,7 @@
             "to": [
                 {
                     "key_code": "left_arrow",
-                    "modifiers": ["left_control", "left_option"]
+                    "modifiers": ["left_control", "fn"]
                 }
             ],
             "type": "basic"
@@ -22,7 +22,7 @@
             "to": [
                 {
                     "key_code": "right_arrow",
-                    "modifiers": ["left_control", "left_option"]
+                    "modifiers": ["left_control", "fn"]
                 }
             ],
             "type": "basic"
@@ -34,8 +34,8 @@
             },
             "to": [
                 {
-                    "key_code": "up_arrow",
-                    "modifiers": ["left_control", "left_option"]
+                    "key_code": "f",
+                    "modifiers": ["left_control", "fn"]
                 }
             ],
             "type": "basic"
@@ -56,7 +56,7 @@
             "to": [
                 {
                     "key_code": "left_arrow",
-                    "modifiers": ["left_control", "left_option"]
+                    "modifiers": ["left_control", "fn"]
                 }
             ],
             "type": "basic"
