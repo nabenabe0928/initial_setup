@@ -24,7 +24,7 @@
         "command": "workbench.action.terminal.sendSequence",
         "when": "terminalFocus",
         "args": {
-            "text": "\u0017" 
+            "text": "\u0017"
         }
     },
     {
@@ -50,31 +50,15 @@
         "when": "terminalFocus"
     },
     {
-        "key": "ctrl+alt+left",
-        "command": "-cursorWordPartLeft",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+alt+right",
-        "command": "-cursorWordPartRight",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+alt+left",
+        "key": "ctrl+left",
         "command": "workbench.action.terminal.sendSequence",
-        "args": { "text": "" },
+        "args": { "text": "\u001bb" },
         "when": "terminalFocus"
     },
     {
-        "key": "ctrl+alt+right",
+        "key": "ctrl+right",
         "command": "workbench.action.terminal.sendSequence",
-        "args": { "text": "" },
-        "when": "terminalFocus"
-    },
-        {
-        "key": "ctrl+alt+up",
-        "command": "workbench.action.terminal.sendSequence",
-        "args": { "text": "" },
+        "args": { "text": "\u001bf" },
         "when": "terminalFocus"
     },
     {
@@ -86,6 +70,11 @@
     {
         "key": "cmd+shift+c",
         "command": "workbench.action.terminal.copySelection",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+shift+v",
+        "command": "workbench.action.terminal.paste",
         "when": "terminalFocus"
     },
     {
