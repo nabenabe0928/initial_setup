@@ -1,0 +1,41 @@
+{
+    "description": "Chrome Back and forward",
+    "manipulators": [
+        {
+            "conditions": [
+                {
+                    "bundle_identifiers": [
+                        "^com\\.google\\.Chrome$"
+                    ],
+                    "type": "frontmost_application_if"
+                }
+            ],
+            "from": { "consumer_key_code": "ac_forward" },
+            "to": [
+                {
+                    "key_code": "close_bracket",
+                    "modifiers": ["left_command"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "bundle_identifiers": [
+                        "^com\\.google\\.Chrome$"
+                    ],
+                    "type": "frontmost_application_if"
+                }
+            ],
+            "from": { "consumer_key_code": "ac_back" },
+            "to": [
+                {
+                    "key_code": "open_bracket",
+                    "modifiers": ["left_command"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
