@@ -50,15 +50,15 @@
         "when": "terminalFocus"
     },
     {
-        "key": "ctrl+left",
+        "key": "ctrl+home",
         "command": "workbench.action.terminal.sendSequence",
-        "args": { "text": "\u001bb" },
+        "args": { "text": "" },
         "when": "terminalFocus"
     },
     {
-        "key": "ctrl+right",
+        "key": "ctrl+end",
         "command": "workbench.action.terminal.sendSequence",
-        "args": { "text": "\u001bf" },
+        "args": { "text": "" },
         "when": "terminalFocus"
     },
     {
