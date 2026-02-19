@@ -81,8 +81,8 @@
       "KC_RGHT"
     ],
     [
-      "KC_BRID",
-      "KC_BRIU",
+      "KC_ESC",
+      "KC_NO",
       "KC_F2",
       "S(KC_3)",
       "S(KC_4)",
@@ -108,8 +108,8 @@
       "KC_END",
       "KC_GRV",
       "KC_PGUP",
-      "KC_NO",
-      "KC_NO",
+      "KC_BRID",
+      "KC_BRIU",
       "0x7793",
       "KC_TRNS",
       "KC_LSFT",
