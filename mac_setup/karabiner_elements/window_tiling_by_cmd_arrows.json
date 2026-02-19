@@ -1,5 +1,5 @@
 {
-    "description": "Remap Cmd + Left/Right to Cmd + Opt + Left/Right for window snapping",
+    "description": "Remap Cmd + Left/Right for window snapping",
     "manipulators": [
         {
             "from": {
