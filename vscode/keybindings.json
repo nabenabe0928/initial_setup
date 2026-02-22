@@ -1,0 +1,65 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+m",
+        "command": "workbench.action.createTerminalEditorSameGroup",
+    },
+    {
+        "key": "ctrl+shift+m",
+        "command": "workbench.action.createTerminalEditorSide"
+    },
+    {
+        "key": "ctrl+shift+d",
+        "command": "git.openChange"
+    },
+    {
+        // Original: ctrl+k --> ctrl+q
+        "key": "ctrl+shift+z",
+        "command": "workbench.action.navigateToLastEditLocation"
+    },
+    {
+        // Original: ctrl+k --> p
+        "key": "alt+p",
+        "command": "workbench.action.files.copyPathOfActiveFile"
+    },
+    {
+        // Original: ctrl+k --> v
+        "key": "alt+shift+v",
+        "command": "markdown.showPreviewToSide"
+    },
+    {
+        // Original: ctrl+shift+v
+        "key": "alt+v",
+        "command": "markdown.showPreview"
+    },
+    {
+        // Original: ctrl+shift+a
+        "key": "ctrl+shift+/",
+        "command": "editor.action.blockComment",
+    },
+    {
+        // Original: ctrl+shift+[
+        "key": "ctrl+[",
+        "command": "editor.fold",
+    },
+    {
+        // Original: ctrl+shift+]
+        "key": "ctrl+]",
+        "command": "editor.unfold",
+    },
+    {
+        // Original: ctrl+shift+e
+        "key": "ctrl+e",
+        "command": "workbench.view.explorer"
+    },
+    {
+        // Original: ctrl+shift+l
+        "key": "alt+l",
+        "command": "editor.action.selectHighlights",
+    },
+    {
+        // Original: ctrl+shift+k
+        "key": "ctrl+shift+backspace",
+        "command": "editor.action.deleteLines",
+    }
+]
