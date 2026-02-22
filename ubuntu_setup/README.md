@@ -1,3 +1,4 @@
-- Use the `henkan` key for language switching 
+- Use the `f20` key for language switching 
 - Register shortcuts for app launch (t: terminal, a: setting, o: Obsidian, v: VSCode)
-- Use `cmd+1/2/3` to switch the 1/2/3-th window in terminal
+- Use `ctrl+1/2/3` to switch the 1/2/3-th window in terminal
+- Use `ctrl+shift+4` for screenshot.
