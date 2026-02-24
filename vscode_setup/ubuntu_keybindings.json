@@ -61,5 +61,18 @@
         // Original: ctrl+shift+k
         "key": "ctrl+shift+backspace",
         "command": "editor.action.deleteLines"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+meta+left",
+        "command": "workbench.action.decreaseViewSize"
+    },
+    {
+        "key": "ctrl+meta+right",
+        "command": "workbench.action.increaseViewSize"
     }
 ]
