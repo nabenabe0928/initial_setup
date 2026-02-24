@@ -90,5 +90,61 @@
     {
         "key": "shift+cmd+s",
         "command": "opensshremotes.openEmptyWindow"
+    },
+    {
+        "key": "cmd+shift+m",
+        "command": "workbench.action.createTerminalEditorSide"
+    },
+    {
+        "key": "cmd+up",
+        "command": "scrollLineUp"
+    },
+    {
+        "key": "cmd+down",
+        "command": "scrollLineDown"
+    },
+    {
+        "key": "cmd+shift+d",
+        "command": "git.openChange"
+    },
+    {
+        "key": "cmd+shift+z",
+        "command": "workbench.action.navigateToLastEditLocation"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.files.copyPathOfActiveFile"
+    },
+    {
+        "key": "ctrl+shift+v",
+        "command": "markdown.showPreviewToSide"
+    },
+    {
+        "key": "ctrl+v",
+        "command": "markdown.showPreview"
+    },
+    {
+        "key": "cmd+[",
+        "command": "editor.fold"
+    },
+    {
+        "key": "cmd+]",
+        "command": "editor.unfold"
+    },
+    {
+        "key": "cmd+e",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "editor.action.selectHighlights"
+    },
+    {
+        "key": "cmd+backspace",
+        "command": "deleteWordLeft"
+    },
+    {
+        "key": "cmd+shift+backspace",
+        "command": "editor.action.deleteLines"
     }
 ]
