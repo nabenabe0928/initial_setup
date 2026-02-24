@@ -175,5 +175,13 @@
     {
         "key": "cmd+shift+/",
         "command": "editor.action.blockComment"
+    },
+    {
+        "key": "cmd+ctrl+left",
+        "command": "workbench.action.decreaseViewSize"
+    },
+    {
+        "key": "cmd+ctrl+right",
+        "command": "workbench.action.increaseViewSize"
     }
 ]
