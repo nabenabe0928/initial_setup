@@ -2,7 +2,7 @@
 [
     {
         "key": "ctrl+m",
-        "command": "workbench.action.createTerminalEditorSameGroup",
+        "command": "workbench.action.createTerminalEditorSameGroup"
     },
     {
         "key": "ctrl+shift+m",
@@ -35,17 +35,17 @@
     {
         // Original: ctrl+shift+a
         "key": "ctrl+shift+/",
-        "command": "editor.action.blockComment",
+        "command": "editor.action.blockComment"
     },
     {
         // Original: ctrl+shift+[
         "key": "ctrl+[",
-        "command": "editor.fold",
+        "command": "editor.fold"
     },
     {
         // Original: ctrl+shift+]
         "key": "ctrl+]",
-        "command": "editor.unfold",
+        "command": "editor.unfold"
     },
     {
         // Original: ctrl+shift+e
@@ -55,11 +55,11 @@
     {
         // Original: ctrl+shift+l
         "key": "alt+l",
-        "command": "editor.action.selectHighlights",
+        "command": "editor.action.selectHighlights"
     },
     {
         // Original: ctrl+shift+k
         "key": "ctrl+shift+backspace",
-        "command": "editor.action.deleteLines",
+        "command": "editor.action.deleteLines"
     }
 ]

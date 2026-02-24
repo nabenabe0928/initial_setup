@@ -2,3 +2,4 @@
 - Register shortcuts for app launch (t: terminal, a: setting, o: Obsidian, v: VSCode)
 - Use `ctrl+1/2/3` to switch the 1/2/3-th window in terminal
 - Use `ctrl+shift+4` for screenshot.
+- Use `ctrl+alt+q` to sleep

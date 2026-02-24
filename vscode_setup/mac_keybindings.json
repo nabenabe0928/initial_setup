@@ -34,37 +34,49 @@
     {
         "key": "cmd+d",
         "command": "workbench.action.terminal.sendSequence",
-        "args": { "text": "\u0004" },
+        "args": {
+            "text": "\u0004"
+        },
         "when": "terminalFocus"
     },
     {
         "key": "cmd+backspace",
         "command": "workbench.action.terminal.sendSequence",
-        "args": { "text": "\u0017" },
+        "args": {
+            "text": "\u0017"
+        },
         "when": "terminalFocus"
     },
     {
         "key": "cmd+r",
         "command": "workbench.action.terminal.sendSequence",
-        "args": { "text": "\u0012" },
+        "args": {
+            "text": "\u0012"
+        },
         "when": "terminalFocus"
     },
     {
         "key": "ctrl+home",
         "command": "workbench.action.terminal.sendSequence",
-        "args": { "text": "" },
+        "args": {
+            "text": ""
+        },
         "when": "terminalFocus"
     },
     {
         "key": "ctrl+end",
         "command": "workbench.action.terminal.sendSequence",
-        "args": { "text": "" },
+        "args": {
+            "text": ""
+        },
         "when": "terminalFocus"
     },
     {
         "key": "cmd+c",
         "command": "workbench.action.terminal.sendSequence",
-        "args": { "text": "\u0003" },
+        "args": {
+            "text": "\u0003"
+        },
         "when": "terminalFocus"
     },
     {
@@ -112,15 +124,15 @@
         "command": "workbench.action.navigateToLastEditLocation"
     },
     {
-        "key": "ctrl+p",
+        "key": "alt+p",
         "command": "workbench.action.files.copyPathOfActiveFile"
     },
     {
-        "key": "ctrl+shift+v",
+        "key": "alt+shift+v",
         "command": "markdown.showPreviewToSide"
     },
     {
-        "key": "ctrl+v",
+        "key": "alt+v",
         "command": "markdown.showPreview"
     },
     {
@@ -136,7 +148,7 @@
         "command": "workbench.view.explorer"
     },
     {
-        "key": "ctrl+l",
+        "key": "alt+l",
         "command": "editor.action.selectHighlights"
     },
     {
@@ -146,5 +158,22 @@
     {
         "key": "cmd+shift+backspace",
         "command": "editor.action.deleteLines"
+    },
+    {
+        "key": "alt+c",
+        "command": "toggleFindCaseSensitive"
+    },
+    {
+        "key": "cmd+m",
+        "command": "workbench.action.createTerminalEditorSameGroup"
+    },
+    {
+        "key": "cmd+j",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "cmd+shift+/",
+        "command": "editor.action.blockComment"
     }
 ]
