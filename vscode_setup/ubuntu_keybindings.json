@@ -9,6 +9,11 @@
         "command": "workbench.action.createTerminalEditorSide"
     },
     {
+        "key": "ctrl+w",
+        "command": "deleteLeft",
+        "when": "terminal.active"
+    },
+    {
         "key": "ctrl+shift+d",
         "command": "git.openChange"
     },
