@@ -38,6 +38,10 @@
         "when": "terminal.active"
     },
     {
+        "key": "cmd+shift+j",
+        "command": "workbench.action.terminal.moveToEditor"
+    },
+    {
         "key": "cmd+d",
         "command": "workbench.action.terminal.sendSequence",
         "args": {
@@ -172,11 +176,6 @@
     {
         "key": "cmd+m",
         "command": "workbench.action.createTerminalEditorSameGroup"
-    },
-    {
-        "key": "cmd+j",
-        "command": "workbench.action.terminal.toggleTerminal",
-        "when": "terminal.active"
     },
     {
         "key": "cmd+shift+/",
