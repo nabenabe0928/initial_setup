@@ -188,5 +188,13 @@
     {
         "key": "cmd+ctrl+right",
         "command": "workbench.action.increaseViewSize"
+    },
+    {
+        "key": "cmd+i",
+        "command": "-inlineChat.start"
+    },
+    {
+        "key": "cmd+shift+i",
+        "command": "-workbench.action.chat.open"
     }
 ]

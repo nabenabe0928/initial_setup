@@ -83,5 +83,9 @@
     {
         "key": "ctrl+meta+right",
         "command": "workbench.action.increaseViewSize"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "-inlineChat.start"
     }
 ]
