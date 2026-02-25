@@ -1,0 +1,3 @@
+- Assign alt+v to toggle reading view
+- Assign alt+t to insert template
+- Assign cmd+e to show file explorer
