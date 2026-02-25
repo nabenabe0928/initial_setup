@@ -1,3 +1,4 @@
 - Assign alt+v to toggle reading view
 - Assign alt+t to insert template
 - Assign cmd+e to show file explorer
+- Assign cmd+j to move the current file to a folder
