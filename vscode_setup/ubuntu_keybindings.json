@@ -68,6 +68,10 @@
         "when": "terminal.active"
     },
     {
+        "key": "ctrl+shift+j",
+        "command": "workbench.action.terminal.moveToEditor"
+    },
+    {
         "key": "ctrl+meta+left",
         "command": "workbench.action.decreaseViewSize"
     },
