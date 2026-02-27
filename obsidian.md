@@ -4,3 +4,5 @@
 - Assign cmd+j to move the current file to a folder
 - Assign cmd+tab to go to the next tab
 - Assign cmd+shift+up/down to add cursor above/below
+- Assign cmd+p to quick switcher
+- Assign cmd+shift+p to open command palette
