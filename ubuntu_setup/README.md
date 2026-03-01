@@ -3,3 +3,7 @@
 - Use `ctrl+1/2/3` to switch the 1/2/3-th window in terminal
 - Use `ctrl+shift+4` for screenshot.
 - Use `ctrl+alt+q` to sleep
+
+# Terminal
+- Assign ctrl+number to switch tab
+- Assign ctrl+left/right to go to previous/next tab
