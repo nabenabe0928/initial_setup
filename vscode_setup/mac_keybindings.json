@@ -190,6 +190,14 @@
         "command": "workbench.action.increaseViewSize"
     },
     {
+        "key": "cmd+ctrl+down",
+        "command": "workbench.action.decreaseViewSize"
+    },
+    {
+        "key": "cmd+ctrl+up",
+        "command": "workbench.action.increaseViewSize"
+    },
+    {
         "key": "cmd+i",
         "command": "-inlineChat.start"
     },
