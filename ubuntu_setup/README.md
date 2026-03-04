@@ -13,5 +13,3 @@ Then, run `./ubuntu_setup/modify_keybindings.sh`.
 # Terminal
 - Assign ctrl+number to switch tab
 - Assign ctrl+left/right to go to previous/next tab
-
-open git diff at a specific commit

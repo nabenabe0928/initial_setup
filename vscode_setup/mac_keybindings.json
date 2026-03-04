@@ -130,6 +130,10 @@
         "command": "git.openChange"
     },
     {
+        "key": "alt+shift+d",
+        "command": "git.openAllChanges"
+    },
+    {
         "key": "cmd+shift+z",
         "command": "workbench.action.navigateToLastEditLocation"
     },
@@ -204,5 +208,22 @@
     {
         "key": "cmd+shift+i",
         "command": "-workbench.action.chat.open"
-    }
+    },
+    // No Verified.
+    {
+        "key": "cmd+t e",
+        "command": "timeline.focus",
+    },
+    {
+        "key": "cmd+t b",
+        "command": "timeline.removeView",
+    },
+    {
+        "key": "cmd+t g",
+        "command": "timeline.toggleExcludeSource:git-history",
+    },
+    {
+        "key": "cmd+t l",
+        "command": "timeline.toggleExcludeSource:timeline.localHistory",
+    },
 ]

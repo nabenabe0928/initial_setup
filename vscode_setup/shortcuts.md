@@ -12,3 +12,4 @@
 - c (`toggleSearchCaseSensitive`): Switch `Match Case` in word search
 - z (`editor.action.toggleWordWrap`): Fold lines or not
 - up/down (`editor.action.moveLinesUp/DownAction`): Move the current line
+- r (`toggleFindRegex`): Enable regular expression search

@@ -11,11 +11,15 @@
     {
         "key": "ctrl+w",
         "command": "deleteLeft",
-        "when": "terminal.active"
+        "when": "terminalFocus && terminal.active"
     },
     {
         "key": "ctrl+shift+d",
         "command": "git.openChange"
+    },
+    {
+        "key": "alt+shift+d",
+        "command": "git.openAllChanges"
     },
     {
         // Original: ctrl+k --> ctrl+q
@@ -95,5 +99,21 @@
     {
         "key": "ctrl+i",
         "command": "-inlineChat.start"
-    }
+    },
+    {
+        "key": "ctrl+t e",
+        "command": "timeline.focus",
+    },
+    {
+        "key": "ctrl+t b",
+        "command": "timeline.removeView",
+    },
+    {
+        "key": "ctrl+t g",
+        "command": "timeline.toggleExcludeSource:git-history",
+    },
+    {
+        "key": "ctrl+t l",
+        "command": "timeline.toggleExcludeSource:timeline.localHistory",
+    },
 ]
