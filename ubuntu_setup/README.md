@@ -1,9 +1,17 @@
-- Use the `f20` key for language switching 
-- Register shortcuts for app launch (t: terminal, a: setting, o: Obsidian, v: VSCode)
-- Use `ctrl+1/2/3` to switch the 1/2/3-th window in terminal
-- Use `ctrl+shift+4` for screenshot.
-- Use `ctrl+meta+q` to sleep
+# Arrange the app dock
+- 1: Folder
+- 2: Terminal
+- 3: Settings
+- 4: System Monitor
+- 5: Google Chrome
+- 6: VSCode
+- 7: PDF Viewer
+- 8: Obsidian
+
+Then, run `./ubuntu_setup/modify_keybindings.sh`.
 
 # Terminal
 - Assign ctrl+number to switch tab
 - Assign ctrl+left/right to go to previous/next tab
+
+open git diff at a specific commit
