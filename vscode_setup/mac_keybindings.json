@@ -209,7 +209,6 @@
         "key": "cmd+shift+i",
         "command": "-workbench.action.chat.open"
     },
-    // No Verified.
     {
         "key": "cmd+t e",
         "command": "timeline.focus",
@@ -218,12 +217,13 @@
         "key": "cmd+t b",
         "command": "timeline.removeView",
     },
-    {
-        "key": "cmd+t g",
-        "command": "timeline.toggleExcludeSource:git-history",
-    },
-    {
-        "key": "cmd+t l",
-        "command": "timeline.toggleExcludeSource:timeline.localHistory",
-    },
+    // Timeline feature in MacOS is limited compared to the Linux version.
+    // {
+    //     "key": "cmd+t g",
+    //     "command": "timeline.toggleExcludeSource:git-history",
+    // },
+    // {
+    //     "key": "cmd+t l",
+    //     "command": "timeline.toggleExcludeSource:timeline.localHistory",
+    // },
 ]
