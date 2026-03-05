@@ -226,4 +226,76 @@
     //     "key": "cmd+t l",
     //     "command": "timeline.toggleExcludeSource:timeline.localHistory",
     // },
+    {
+        "key": "alt+r",
+        "command": "toggleFindRegex"
+    },
+    {
+        "key": "cmd+shift+1",
+        "command": "workbench.action.focusFirstEditorGroup"
+    },
+    {
+        "key": "cmd+shift+2",
+        "command": "workbench.action.focusSecondEditorGroup"
+    },
+    {
+        "key": "cmd+shift+3",
+        "command": "workbench.action.focusThirdEditorGroup"
+    },
+    {
+        "key": "cmd+shift+4",
+        "command": "workbench.action.focusFourthEditorGroup"
+    },
+    {
+        "key": "cmd+shift+5",
+        "command": "workbench.action.focusFifthEditorGroup"
+    },
+    {
+        "key": "cmd+shift+6",
+        "command": "workbench.action.focusSixthEditorGroup"
+    },
+    {
+        "key": "cmd+shift+7",
+        "command": "workbench.action.focusSeventhEditorGroup"
+    },
+    {
+        "key": "cmd+shift+8",
+        "command": "workbench.action.focusEighthEditorGroup"
+    },
+    {
+        "key": "cmd+1",
+        "command": "workbench.action.openEditorAtIndex1"
+    },
+    {
+        "key": "cmd+2",
+        "command": "workbench.action.openEditorAtIndex2"
+    },
+    {
+        "key": "cmd+3",
+        "command": "workbench.action.openEditorAtIndex3"
+    },
+    {
+        "key": "cmd+4",
+        "command": "workbench.action.openEditorAtIndex4"
+    },
+    {
+        "key": "cmd+5",
+        "command": "workbench.action.openEditorAtIndex5"
+    },
+    {
+        "key": "cmd+6",
+        "command": "workbench.action.openEditorAtIndex6"
+    },
+    {
+        "key": "cmd+7",
+        "command": "workbench.action.openEditorAtIndex7"
+    },
+    {
+        "key": "cmd+8",
+        "command": "workbench.action.openEditorAtIndex8"
+    },
+    {
+        "key": "cmd+9",
+        "command": "workbench.action.openEditorAtIndex9"
+    },
 ]
