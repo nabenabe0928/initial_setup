@@ -13,3 +13,6 @@
 - z (`editor.action.toggleWordWrap`): Fold lines or not
 - up/down (`editor.action.moveLinesUp/DownAction`): Move the current line
 - r (`toggleFindRegex`): Enable regular expression search
+
+> [!NOTE]
+> Consider exchange `workbench.action.openEditorAtIndex1` and `workbench.action.focusFirstEditorGroup`.
