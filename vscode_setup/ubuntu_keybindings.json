@@ -230,6 +230,6 @@
     {
         "key": "alt+c",
         "command": "toggleSearchCaseSensitive",
-        "when": "searchViewletVisible && hasSearchResult"
+        "when": "searchViewletVisible"
     },
 ]

@@ -180,7 +180,7 @@
     {
         "key": "alt+c",
         "command": "toggleSearchCaseSensitive",
-        "when": "searchViewletVisible && hasSearchResult"
+        "when": "searchViewletVisible"
     },
     {
         "key": "cmd+m",
@@ -234,6 +234,11 @@
     {
         "key": "alt+r",
         "command": "toggleFindRegex"
+    },
+    {
+        "key": "alt+r",
+        "command": "toggleSearchRegex",
+        "when": "searchViewletVisible"
     },
     {
         "key": "cmd+shift+1",
