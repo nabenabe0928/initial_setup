@@ -232,4 +232,9 @@
         "command": "toggleSearchCaseSensitive",
         "when": "searchViewletVisible"
     },
+    {
+        "key": "alt+r",
+        "command": "toggleSearchRegex",
+        "when": "searchViewletVisible"
+    },
 ]
