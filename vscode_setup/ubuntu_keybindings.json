@@ -227,4 +227,9 @@
         "command": "workbench.action.replaceInFiles",
         "when": "searchViewletVisible && hasSearchResult"
     },
+    {
+        "key": "alt+c",
+        "command": "toggleSearchCaseSensitive",
+        "when": "searchViewletVisible && hasSearchResult"
+    },
 ]

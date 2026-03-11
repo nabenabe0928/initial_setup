@@ -178,6 +178,11 @@
         "command": "toggleFindCaseSensitive"
     },
     {
+        "key": "alt+c",
+        "command": "toggleSearchCaseSensitive",
+        "when": "searchViewletVisible && hasSearchResult"
+    },
+    {
         "key": "cmd+m",
         "command": "workbench.action.createTerminalEditorSameGroup"
     },
