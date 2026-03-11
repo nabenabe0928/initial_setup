@@ -298,4 +298,12 @@
         "key": "cmd+9",
         "command": "workbench.action.openEditorAtIndex9"
     },
+    {
+        "key": "cmd+alt+right",
+        "command": "workbench.action.nextEditorInGroup"
+    },
+    {
+        "key": "cmd+alt+left",
+        "command": "workbench.action.previousEditorInGroup"
+    }
 ]

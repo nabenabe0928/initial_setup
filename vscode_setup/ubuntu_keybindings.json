@@ -184,4 +184,12 @@
         "key": "ctrl+9",
         "command": "workbench.action.openEditorAtIndex9"
     },
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.nextEditorInGroup"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditorInGroup"
+    }
 ]
