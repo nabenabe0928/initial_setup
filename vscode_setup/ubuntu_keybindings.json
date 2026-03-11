@@ -208,8 +208,23 @@
         "when": "editorFocus"
     },
     {
-        "key": "cmd+meta+g",
+        "key": "ctrl+meta+g",
         "command": "editor.action.replaceOne",
         "when": "editorFocus && findWidgetVisible"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "search.action.focusNextSearchResult",
+        "when": "searchViewletVisible && hasSearchResult"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "search.action.focusPreviousSearchResult",
+        "when": "searchViewletVisible && hasSearchResult"
+    },
+    {
+        "key": "alt+ctrl+f",
+        "command": "workbench.action.replaceInFiles",
+        "when": "searchViewletVisible && hasSearchResult"
     },
 ]

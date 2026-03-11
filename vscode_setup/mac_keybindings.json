@@ -321,4 +321,19 @@
         "command": "editor.action.replaceOne",
         "when": "editorFocus && findWidgetVisible"
     },
+    {
+        "key": "cmd+g",
+        "command": "search.action.focusNextSearchResult",
+        "when": "searchViewletVisible && hasSearchResult"
+    },
+    {
+        "key": "cmd+shift+g",
+        "command": "search.action.focusPreviousSearchResult",
+        "when": "searchViewletVisible && hasSearchResult"
+    },
+    {
+        "key": "alt+cmd+f",
+        "command": "workbench.action.replaceInFiles",
+        "when": "searchViewletVisible && hasSearchResult"
+    },
 ]
