@@ -329,7 +329,7 @@
     {
         "key": "cmd+ctrl+g",
         "command": "editor.action.replaceOne",
-        "when": "editorFocus && findWidgetVisible"
+        "when": "editorFocus && findWidgetVisible && !searchViewletVisible"
     },
     {
         "key": "cmd+g",
