@@ -1,3 +1,7 @@
 {
-    "chat.disableAIFeatures": true
+    "chat.disableAIFeatures": true,
+    "search.useReplacePreview": false,
+    "editor.formatOnSave": false,
+    "claudeCode.useTerminal": true,
+    "claudeCode.hideOnboarding": true,
 }
