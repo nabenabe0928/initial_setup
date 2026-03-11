@@ -357,7 +357,7 @@
         "when": "searchViewletVisible",
     },
     {
-        "key": "cmd+i",
+        "key": "shift+cmd+i",
         "command": "editor.action.formatDocument",
         "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
     },
