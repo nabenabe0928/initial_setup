@@ -238,7 +238,7 @@
         "when": "searchViewletVisible"
     },
     {
-        "key": "enter",
+        "key": "ctrl+enter",
         "command": "search.action.replaceAll",
         "when": "replaceActive && searchViewletVisible && !findWidgetVisible"
     },
