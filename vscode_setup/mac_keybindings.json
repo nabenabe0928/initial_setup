@@ -305,5 +305,20 @@
     {
         "key": "cmd+alt+left",
         "command": "workbench.action.previousEditorInGroup"
-    }
+    },
+    {
+        "key": "cmd+g",
+        "command": "editor.action.nextMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+shift+g",
+        "command": "editor.action.previousMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+ctrl+g",
+        "command": "editor.action.replaceOne",
+        "when": "editorFocus && findWidgetVisible"
+    },
 ]

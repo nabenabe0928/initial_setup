@@ -191,5 +191,25 @@
     {
         "key": "ctrl+shift+tab",
         "command": "workbench.action.previousEditorInGroup"
-    }
+    },
+    {
+        "key": "ctrl+alt+f",
+        "command": "editor.action.startFindReplaceAction",
+        "when": "editorFocus || editorIsOpen"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "editor.action.nextMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "editor.action.previousMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+meta+g",
+        "command": "editor.action.replaceOne",
+        "when": "editorFocus && findWidgetVisible"
+    },
 ]
