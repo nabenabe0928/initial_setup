@@ -354,6 +354,11 @@
     {
         "key": "cmd+ctrl+g",
         "command": "search.action.replace",
-        "when": "isEditableItem && matchFocus && replaceActive && searchViewletVisible"
+        "when": "searchViewletVisible",
+    },
+    {
+        "key": "cmd+i",
+        "command": "editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
     },
 ]
