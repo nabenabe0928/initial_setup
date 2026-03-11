@@ -237,4 +237,9 @@
         "command": "toggleSearchRegex",
         "when": "searchViewletVisible"
     },
+    {
+        "key": "enter",
+        "command": "search.action.replaceAll",
+        "when": "replaceActive && searchViewletVisible && !findWidgetVisible"
+    },
 ]

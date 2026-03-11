@@ -346,4 +346,9 @@
         "command": "workbench.action.replaceInFiles",
         "when": "searchViewletVisible && hasSearchResult"
     },
+    {
+        "key": "enter",
+        "command": "search.action.replaceAll",
+        "when": "replaceActive && searchViewletVisible && !findWidgetVisible"
+    },
 ]
