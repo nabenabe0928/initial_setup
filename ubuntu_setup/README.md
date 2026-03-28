@@ -13,3 +13,9 @@ Then, run `./ubuntu_setup/modify_keybindings.sh`.
 # Terminal
 - Assign ctrl+number to switch tab
 - Assign ctrl+left/right to go to previous/next tab
+
+# Apply keyd
+
+```shell
+sudo cp ubuntu_setup/default.conf /etc/keyd/default.conf && sudo keyd reload
+```
