@@ -9,3 +9,8 @@ Aligning with the MacBook's tiling functionalities, we define the keys from the 
 # Disabled Keyboard Shortcuts
 - cmd+shift+/: Help menu (Keyboard shortcuts > App Shortcuts)
 - cmd+m: Minimize window (Keyboard shortcuts > Windows > General)
+
+# Shortcut Remapping
+- win+alt+down: Show Desktop (Keyboard shortcuts > Mission Control > Show Desktop)
+    - win+alt+up: Show all windows (set by Karabiner Elements)
+- win+cmd+alt+up: Show all application windows (Keyboard shortcuts > Mission Control > Application Windows)
