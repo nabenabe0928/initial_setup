@@ -1,0 +1,3 @@
+[submodule "via-keyboard-visualizer"]
+	path = via-keyboard-visualizer
+	url = git@github.com:nabenabe0928/via-keyboard-visualizer.git
