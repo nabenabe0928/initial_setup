@@ -130,6 +130,7 @@
         "command": "git.openChange"
     },
     {
+        // TODO
         "key": "alt+shift+d",
         "command": "git.openAllChanges"
     },
@@ -215,10 +216,12 @@
         "command": "-workbench.action.chat.open"
     },
     {
+        // TODO
         "key": "cmd+t e",
         "command": "timeline.focus",
     },
     {
+        // TODO
         "key": "cmd+t b",
         "command": "timeline.removeView",
     },
@@ -327,6 +330,7 @@
         "when": "editorFocus"
     },
     {
+        // TODO
         "key": "cmd+ctrl+g",
         "command": "editor.action.replaceOne",
         "when": "editorFocus && findWidgetVisible && !searchViewletVisible"
@@ -342,6 +346,7 @@
         "when": "searchViewletVisible && hasSearchResult"
     },
     {
+        // TODO
         "key": "alt+cmd+f",
         "command": "workbench.action.replaceInFiles",
         "when": "searchViewletVisible && hasSearchResult"
@@ -352,6 +357,7 @@
         "when": "replaceActive && searchViewletVisible && !findWidgetVisible"
     },
     {
+        // TODO
         "key": "cmd+ctrl+g",
         "command": "search.action.replace",
         "when": "searchViewletVisible",
