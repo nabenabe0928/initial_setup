@@ -364,7 +364,7 @@
       "C(KC_C)",
       "C(KC_V)",
       "C(KC_B)",
-      "KC_NO",
+      "A(KC_LGUI)",
       "KC_NO",
       "KC_NO",
       "KC_LALT",
