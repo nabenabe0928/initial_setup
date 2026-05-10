@@ -24,3 +24,6 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys screensaver "['<Contr
 # This section for input source switch. (`AudioMicMute` is f20.)
 gsettings set org.gnome.desktop.wm.keybindings switch-input-source "['AudioMicMute']"
 gsettings set org.gnome.desktop.wm.keybindings switch-input-source-backward "['<Shift>AudioMicMute']"
+
+# This section for preventing the target tile from being hidden.
+gsettings set org.gnome.shell.extensions.tiling-assistant enable-raise-tile-group false

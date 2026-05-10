@@ -19,3 +19,7 @@ Then, run `./ubuntu_setup/modify_keybindings.sh`.
 ```shell
 sudo cp ubuntu_setup/default.conf /etc/keyd/default.conf && sudo keyd reload
 ```
+
+# Ibus Config
+
+Add `active_on_launch: True` to `~/.config/mozc/ibus_config.textproto` so that the input source will be automatically switched to Japanese upon the input source change.
