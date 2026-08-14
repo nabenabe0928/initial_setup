@@ -2,6 +2,12 @@
     "chat.disableAIFeatures": true,
     "search.useReplacePreview": false,
     "editor.formatOnSave": false,
+    "latex-workshop.latex.autoBuild.run": "never",
     "claudeCode.useTerminal": true,
     "claudeCode.hideOnboarding": true,
+    "workbench.colorTheme": "Default High Contrast",
+    "workbench.colorCustomizations": {
+        "diffEditor.insertedTextBackground": "#00bfff77",
+        "diffEditor.removedTextBackground": "#ff450077"
+    }
 }
